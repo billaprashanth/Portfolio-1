@@ -506,6 +506,9 @@ footer .right a i {
     .about .info .p-strong {
         font-size: 13px;
     }
+    .project {
+        margin-top: 10px;
+    }
     .project .project-item h2 {
         font-size: 18px;
     }
@@ -519,7 +522,7 @@ footer .right a i {
     }
     
     .project {
-        margin-top: 100px;
+        margin-top: 10px;
     }
 }
 
