@@ -45,7 +45,7 @@ body {
 .navbar ul li:last-child a {
     margin: 0;
 }
-.Hire-btn {
+.Hire-btn{
     background-color: #ffb742;
     color: #fff;
     padding: 10px 30px;
@@ -55,7 +55,11 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
+.Hire-btn a {
+    text-decoration: none;
+    font-weight: 540;
+    color: white;
+}
 .Hire-btn:hover {
     background-color: #fb8c00;
 }
