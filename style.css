@@ -262,6 +262,21 @@ body {
 .skills .right .item:hover i {
     color: #ffb742;
 }
+/* Video */
+.video-container {
+    width: 100%;
+    padding: 60px;
+}
+.video-container h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+.video-container video{
+    width: 100%;
+    border: 3px solid lightgray;
+    border-radius: 20px;
+}
 
 .project {
     margin-top: 30px;
@@ -326,7 +341,9 @@ footer .left p{
 
 .project .project-item img:hover {
     scale: 1.05;
-}
+} 
+
+
 footer {
     margin-top: 80px;
     background-color: #383e45;
@@ -401,6 +418,9 @@ footer .right a i {
     .navbar {
         padding: 0px 20px;
     }
+    .video-container{
+        padding: 20px;
+    }
     
     
 }
@@ -435,6 +455,9 @@ footer .right a i {
     }
     .about {
         justify-content: center;
+    }
+    .video-container{
+        padding: 20px;
     }
     
 }
@@ -479,6 +502,12 @@ footer .right a i {
     .skills .left .info h3 {
         font-size: 20px;
     }
+    .video-container{
+        padding: 20px;
+    }
+    .video-container h1 {
+        font-size: 25px;
+    }
     footer .left h1 {
         font-size: 22px;
     }
@@ -510,6 +539,7 @@ footer .right a i {
     .about .info .p-strong {
         font-size: 13px;
     }
+    
     .project {
         margin-top: 10px;
     }
