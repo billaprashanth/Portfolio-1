@@ -8,7 +8,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
-    <title>Portfolio-Dashboard</title> 
+    <title>Portfolio-Dashboard</title>
+
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   </head>
   <body>
     <div class="navbar">
@@ -159,7 +162,7 @@
      <div class="video-container">
       <h1>My First FreeLance Project</h1>
     <video controls>
-      <source src="assets\Free-lance-1.mp4" type="video/mp4">
+      <source src="assets\Free-lance-1.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   </div>
@@ -271,30 +274,55 @@
         </p>
       </div>
       <div class="right">
-        <div class="item">
-          <a
-            href="https://www.linkedin.com/in/prashanth-billa-566020348/"
-            target="_blank"
-          >
-            <i class="bx bxl-linkedin-square"></i>
-          </a>
-        </div>
-        <div class="item">
-          <a href="https://github.com/billaprashanth" target="_blank">
-            <i class="bx bxl-github"></i>
-          </a>
-        </div>
-        <div class="item">
-          <a href="https://twitter.com/PrashanthBillab" target="_blank">
-            <i class="bx bxl-twitter"></i>
-          </a>
-        </div>
-        <div class="item">
-          <a href="" target="_blank">
-            <i class="bx bxl-instagram"></i>
-          </a>
-        </div>
+        <a
+          href="https://www.linkedin.com/in/prashanthbilla"
+          target="_blank"
+          class="icons"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/PrashanthBilla" target="_blank" class="icons"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="https://www.facebook.com/prashanth.billa.5" target="_blank" class="icons"
+          ><i class="bx bxl-facebook-circle"></i
+        ></a>
       </div>
     </footer>
+
+    <script>
+      // Navbar animation
+      gsap.from(".navbar", {
+        duration: 1,
+        y: -100,
+        opacity: 0,
+        ease: "bounce",
+      });
+
+      // Main intro animation
+      gsap.from(".main h4, .main p, .main img", {
+        duration: 1,
+        opacity: 0,
+        y: 50,
+        stagger: 0.3,
+      });
+
+      // Skills icons animation on scroll
+      gsap.from(".skills .item", {
+        scrollTrigger: ".skills",
+        duration: 1,
+        opacity: 0,
+        scale: 0.5,
+        stagger: 0.1,
+      });
+
+      // Projects animation on scroll
+      gsap.from(".project-item", {
+        scrollTrigger: ".project",
+        duration: 1,
+        opacity: 0,
+        y: 50,
+        stagger: 0.2,
+      });
+    </script>
   </body>
 </html>
