@@ -268,7 +268,7 @@ body {
     padding: 60px;
 }
 .video-container h1,
-.project h1 {
+.projects {
     text-align: center;
     color: white;
     padding-bottom: 30px;
@@ -288,7 +288,7 @@ body {
     gap: 20px;
 }
 
-.project h1 {
+.projects {
     padding-bottom: 0px;
 }
 
