@@ -267,7 +267,8 @@ body {
     width: 100%;
     padding: 60px;
 }
-.video-container h1 {
+.video-container h1,
+.project h1 {
     text-align: center;
     color: white;
     padding-bottom: 30px;
@@ -286,6 +287,11 @@ body {
     justify-content: space-around;
     gap: 20px;
 }
+
+.project h1 {
+    padding-bottom: 0px;
+}
+
 .project .project-item {
     background-color: #292b2e;
     width: 100%;
@@ -539,7 +545,9 @@ footer .right a i {
     .about .info .p-strong {
         font-size: 13px;
     }
-    
+    .video-container {
+        margin-top: 70px;
+    }
     .project {
         margin-top: 10px;
     }
@@ -558,5 +566,12 @@ footer .right a i {
     .project {
         margin-top: 10px;
     }
+    footer .left h1 {
+        text-align: center;
+    }
+    footer .right a {
+        padding: 8px;
+    }
+    
 }
 
