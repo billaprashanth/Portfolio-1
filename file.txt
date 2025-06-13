@@ -1,0 +1,95 @@
+<div class="project">
+      <div class="project-item">
+        <img src="assets/Event-app.png" />
+        <div class="headings">
+          <h2>The Event Hub Website</h2>
+          <p>Tech stack : ReactJs</p>
+        </div>
+        <div class="link">
+          <strong>Project Link : </strong>
+          <a
+            href="https://event-marraige-website.vercel.app/"
+            target="_blank"
+          >
+            Click Here
+            <i class="bx bx-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+     
+      <div class="project-item">
+        <img src="assets/portfoliooo.png" class="second-img" />
+        <div class="headings">
+          <h2>Personal Portfolio</h2>
+          <p>Tech stack : ReactJs</p>
+        </div>
+        <div class="link">
+          <strong>Project Link : </strong>
+          <a href="https://portfolio1-omega-eight.vercel.app/" target="_blank">
+            Click Here
+            <i class="bx bx-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <img src="assets/Scikit-Project1.png" />
+        <div class="headings">
+          <h2>Scikit-Bootstrap</h2>
+          <p>Tech stack : Bootstrap 5.3 & scss</p>
+        </div>
+        <div class="link">
+          <strong>Project Link : </strong>
+          <a href="https://scikit-bootstrap.vercel.app/" target="_blank">
+            Click Here
+            <i class="bx bx-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="project">
+       <div class="project-item">
+        <img src="assets/SocialMedia.png" />
+        <div class="headings">
+          <h2>Social Media</h2>
+          <p>Tech stack : ReactJs</p>
+        </div>
+        <div class="link">
+          <strong>Project Link : </strong>
+          <a href="https://social-media-bice-mu.vercel.app/" target="_blank">
+            Click Here
+            <i class="bx bx-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <img src="assets/Movie-info-Project1.png" class="second-img" />
+        <div class="headings">
+          <h2>Movie Application</h2>
+          <p>Tech stack : HTML, CSS, JavaScript</p>
+        </div>
+        <div class="link">
+          <strong>Project Link : </strong>
+          <a href="https://movie-application-jade.vercel.app/" target="_blank">
+            Click Here
+            <i class="bx bx-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <img src="assets/Food-delivery-dashboard.png" />
+        <div class="headings">
+          <h2>Food Dashboard</h2>
+          <p>Tech stack : HTML, CSS & JavaScript</p>
+        </div>
+        <div class="link">
+          <strong>Project Link : </strong>
+          <a href="https://food-dashboard1.vercel.app/" target="_blank">
+            Click Here
+            <i class="bx bx-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+    </div> 
