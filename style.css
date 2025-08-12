@@ -268,10 +268,12 @@ body {
     padding: 60px;
 }
 .video-container h1,
+.video-container h2,
 .projects {
+    padding-top: 10px;
     text-align: center;
     color: white;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .video-container video{
     width: 100%;
