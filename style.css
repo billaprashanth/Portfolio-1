@@ -232,6 +232,52 @@ body {
 .skills .left button {
     margin-top: 30px;
 }
+/* Skills right For names */
+.skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.skills .info h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.skills .info p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-width: 600px;
+}
+
+.skill {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: default;
+}
+
+.skill:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+/* Skills right Names section Ends */
 
 .skills .right {
     width: 300px;
